@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080
 
 // const port = 8080
 
-app.get('/', (req, res) => res.send('Remade By Priyansh!!'));
+app.get('/', (req, res) => res.send('Remade By Uzair!!'));
 
 app.listen(port, () =>
 	console.log(`Your app is listening a http://localhost:${port}`)
